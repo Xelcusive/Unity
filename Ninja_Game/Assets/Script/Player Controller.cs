@@ -15,8 +15,7 @@ public class PlayerController : MonoBehaviour
     private bool isAttack = false;
     private float horizontal;
     private string currentAnimName;
-    private int coin = 0;
-    
+
 
     // Start is called before the first frame update
     void Start()
@@ -38,9 +37,9 @@ public class PlayerController : MonoBehaviour
             Throw();
         }
         Move();
-        
-        
-        
+
+
+
     }
     //Hàm check nhân vật có ở mặt đất hay là không
     private bool CheckGrounded()
@@ -142,6 +141,11 @@ public class PlayerController : MonoBehaviour
         ChangeAnmim("idle");
 
     }
+    public void CallChangeAnim(string animName)
+    {
+        ChangeAnmim(animName);
+    }
+       
     private void ChangeAnmim(string animName)
     {
         if(currentAnimName != animName)
@@ -151,14 +155,5 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger(currentAnimName);
         }
     } 
-    //Hàm xử lý va chạm
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.tag=="coin")
-        {
-            coin++;
-            Destroy(collision.gameObject);
-        }
-    }
 }
 
