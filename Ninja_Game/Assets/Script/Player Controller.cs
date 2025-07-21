@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -13,14 +14,21 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded=true;
     private bool isJumnping=false;
     private bool isAttack = false;
+    private bool isDeath = false;
     private float horizontal;
     private string currentAnimName;
+    private Vector3 savePoint;
+
+    public Rigidbody2D RB;
+    public bool IsDeath;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        RB=rb;
+        SavePoint();
+        OnInit();
     }
 
     // Update is called once per frame
@@ -30,6 +38,7 @@ public class PlayerController : MonoBehaviour
         Falling();
         if (isGrounded)
         {
+            //Jump
             Jump();
             //attack
             Attack();
@@ -37,9 +46,14 @@ public class PlayerController : MonoBehaviour
             Throw();
         }
         Move();
-
-
-
+    }
+    public void OnInit()// hàm reset các thông số, đưa về trạng thái đầu tiên
+    {
+        isDeath = false;
+        isDeath = false;
+        isAttack = false;
+        transform.position = savePoint;
+        ChangeAnmim("Idle");
     }
     //Hàm check nhân vật có ở mặt đất hay là không
     private bool CheckGrounded()
@@ -141,7 +155,7 @@ public class PlayerController : MonoBehaviour
         ChangeAnmim("idle");
 
     }
-    public void CallChangeAnim(string animName)
+    public void CallChangeAnim(string animName)//Gọi gián tiếp changeAnim để dùng cho collision
     {
         ChangeAnmim(animName);
     }
@@ -154,6 +168,11 @@ public class PlayerController : MonoBehaviour
             currentAnimName = animName;
             anim.SetTrigger(currentAnimName);
         }
-    } 
+    }
+
+    internal void SavePoint()
+    {
+        savePoint=transform.position;
+    }
 }
 

@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
-    private PlayerController playerController;
+    [SerializeField] private PlayerController playerController;
     private GameManager gameManager;
     private void Awake()
     {
         gameManager = FindAnyObjectByType<GameManager>();
+    }
+
+    private void Update()
+    {
+       
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -20,7 +25,15 @@ public class PlayerCollision : MonoBehaviour
         }    
         if(collision.CompareTag("DeathZone"))
         {
+            playerController.IsDeath = true;
             playerController.CallChangeAnim("die");
+            StartCoroutine(ResetPlayerTosavePont(1f));
+            
         }    
+    }
+    private IEnumerator ResetPlayerTosavePont(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        playerController.OnInit();
     }
 }
