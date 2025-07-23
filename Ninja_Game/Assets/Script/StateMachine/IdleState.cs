@@ -6,7 +6,7 @@ public class IdleState : IState
 {
     float randomTime;
     float timer;
-    public void OnEnter(Ennemy ennemy)
+    public void OnEnter(Enemy ennemy)
     {
        ennemy.StopMoving();
         timer = 0;
@@ -14,16 +14,16 @@ public class IdleState : IState
     }
 
 
-    public void OnExecute(Ennemy ennemy)
+    public void OnExecute(Enemy ennemy)
     {
         timer += Time.deltaTime;
         if (timer>randomTime)
         {
-            ennemy.ChangeSate(new PatrolSate());
+            ennemy.ChangeSate(new PatrolState());
         }
     }
 
-    public void OnExit(Ennemy ennemy)
+    public void OnExit(Enemy ennemy)
     {
         throw new System.NotImplementedException();
     }

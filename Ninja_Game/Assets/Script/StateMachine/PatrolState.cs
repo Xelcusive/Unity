@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,28 +6,48 @@ public class PatrolState : IState
 {
     float randomTime;
     float timer;
-    public void OnEnter(Ennemy ennemy)
+    public void OnEnter(Enemy enemy)
     {
         timer = 0;
         randomTime = Random.Range(3f, 6f);
     }
 
-    public void OnExecute(Ennemy ennemy)
+    public void OnExecute(Enemy enemy)
     {
         timer += Time.deltaTime;
-        if (timer < randomTime)
+        if (enemy.Target != null)
         {
-            ennemy.Moving();
+            //Đổi hướng enemy tới hướng của player
+            enemy.ChangDirection(enemy.Target.transform.position.x > enemy.transform.position.x);
+            if (enemy.Target != null)
+            {
+                if (enemy.IsTarrgetInRange())
+                {
+                    enemy.ChangeSate(new AttackState());
+                }
+
+            }
+            else
+            {
+                enemy.Moving();
+            }
         }
         else
         {
-            ennemy.ChangeSate(new IdleState());
+            if (timer < randomTime)
+            {
+                enemy.Moving();
+            }
+            else
+            {
+                enemy.ChangeSate(new IdleState());
+            }
         }
     }
 
-    public void OnExit(Ennemy ennemy)
+    public void OnExit(Enemy enemy)
     {
-        throw new System.NotImplementedException();
+        
     }
 
 

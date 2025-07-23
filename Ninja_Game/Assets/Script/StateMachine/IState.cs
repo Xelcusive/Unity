@@ -4,7 +4,7 @@ using UnityEngine;
 
 public interface IState
 {
-    void OnEnter(Ennemy ennemy);// bắt đầu vào state
-    void OnExecute(Ennemy ennemy);//update state
-    void OnExit(Ennemy ennemy);//ext state
+    void OnEnter(Enemy ennemy);// bắt đầu vào state
+    void OnExecute(Enemy ennemy);//update state
+    void OnExit(Enemy ennemy);//ext state
 }

@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\",
+  "WorkspaceRootPath": "D:\\Github-Fork\\Unity\\Ninja_Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\assets\\script\\ennemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|d:\\github-fork\\unity\\ninja_game\\assets\\script\\kunai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\kunai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|d:\\github-fork\\unity\\ninja_game\\assets\\script\\ennemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ennemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|c:\\users\\night\\onedrive\\desktop\\git-fork\\unity\\ninja_game\\assets\\script\\statemachine\\patrolsate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\statemachine\\patrolsate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|c:\\users\\night\\onedrive\\desktop\\git-fork\\unity\\ninja_game\\assets\\script\\statemachine\\istate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\statemachine\\istate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|c:\\users\\night\\onedrive\\desktop\\git-fork\\unity\\ninja_game\\assets\\script\\statemachine\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\statemachine\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|c:\\users\\night\\onedrive\\desktop\\git-fork\\unity\\ninja_game\\assets\\script\\statemachine\\attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|D:\\Github-Fork\\Unity\\Ninja_Game\\assets\\script\\statemachine\\attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\statemachine\\attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|c:\\users\\night\\onedrive\\desktop\\git-fork\\unity\\ninja_game\\assets\\script\\player controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|D:\\Github-Fork\\Unity\\Ninja_Game\\assets\\script\\statemachine\\patrolstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\statemachine\\patrolstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\assets\\script\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|D:\\Github-Fork\\Unity\\Ninja_Game\\assets\\script\\enemysight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemysight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|D:\\Github-Fork\\Unity\\Ninja_Game\\assets\\script\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|D:\\Github-Fork\\Unity\\Ninja_Game\\assets\\script\\enemycoliision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemycoliision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,94 +38,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PatrolSate.cs",
-              "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\StateMachine\\PatrolSate.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\StateMachine\\PatrolSate.cs",
-              "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\StateMachine\\PatrolSate.cs",
-              "RelativeToolTip": "Assets\\Script\\StateMachine\\PatrolSate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Kunai.cs",
+              "DocumentMoniker": "D:\\Github-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Kunai.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Kunai.cs",
+              "ToolTip": "D:\\Github-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Kunai.cs",
+              "RelativeToolTip": "Assets\\Script\\Kunai.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T00:28:50.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IState.cs",
-              "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\StateMachine\\IState.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\StateMachine\\IState.cs",
-              "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\StateMachine\\IState.cs",
-              "RelativeToolTip": "Assets\\Script\\StateMachine\\IState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T00:28:48.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IdleState.cs",
-              "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\StateMachine\\IdleState.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\StateMachine\\IdleState.cs",
-              "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\StateMachine\\IdleState.cs",
-              "RelativeToolTip": "Assets\\Script\\StateMachine\\IdleState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T00:28:48.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AttackState.cs",
-              "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\StateMachine\\AttackState.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\StateMachine\\AttackState.cs",
-              "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\StateMachine\\AttackState.cs",
-              "RelativeToolTip": "Assets\\Script\\StateMachine\\AttackState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T00:28:47.198Z",
+              "WhenOpened": "2025-07-23T10:33:36.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "EnemyColiision.cs",
+              "DocumentMoniker": "D:\\Github-Fork\\Unity\\Ninja_Game\\Assets\\Script\\EnemyColiision.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EnemyColiision.cs",
+              "ToolTip": "D:\\Github-Fork\\Unity\\Ninja_Game\\Assets\\Script\\EnemyColiision.cs",
+              "RelativeToolTip": "Assets\\Script\\EnemyColiision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:22:10.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatrolState.cs",
+              "DocumentMoniker": "D:\\Github-Fork\\Unity\\Ninja_Game\\Assets\\Script\\StateMachine\\PatrolState.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\StateMachine\\PatrolState.cs",
+              "ToolTip": "D:\\Github-Fork\\Unity\\Ninja_Game\\Assets\\Script\\StateMachine\\PatrolState.cs",
+              "RelativeToolTip": "Assets\\Script\\StateMachine\\PatrolState.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:19:25.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AttackState.cs",
+              "DocumentMoniker": "D:\\Github-Fork\\Unity\\Ninja_Game\\Assets\\Script\\StateMachine\\AttackState.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\StateMachine\\AttackState.cs",
+              "ToolTip": "D:\\Github-Fork\\Unity\\Ninja_Game\\Assets\\Script\\StateMachine\\AttackState.cs",
+              "RelativeToolTip": "Assets\\Script\\StateMachine\\AttackState.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:31:15.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemySight.cs",
+              "DocumentMoniker": "D:\\Github-Fork\\Unity\\Ninja_Game\\Assets\\Script\\EnemySight.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EnemySight.cs",
+              "ToolTip": "D:\\Github-Fork\\Unity\\Ninja_Game\\Assets\\Script\\EnemySight.cs",
+              "RelativeToolTip": "Assets\\Script\\EnemySight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:03:56.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Character.cs",
-              "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Character.cs",
+              "DocumentMoniker": "D:\\Github-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Character.cs",
-              "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Character.cs",
+              "ToolTip": "D:\\Github-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Character.cs",
               "RelativeToolTip": "Assets\\Script\\Character.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T13:33:53.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Player Controller.cs",
-              "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Player Controller.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Player Controller.cs",
-              "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Player Controller.cs",
-              "RelativeToolTip": "Assets\\Script\\Player Controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T11:27:03.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Ennemy.cs",
-              "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Ennemy.cs",
+              "DocumentMoniker": "D:\\Github-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Ennemy.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Ennemy.cs",
-              "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Ennemy.cs",
+              "ToolTip": "D:\\Github-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Ennemy.cs",
               "RelativeToolTip": "Assets\\Script\\Ennemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwEAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T14:47:02.424Z",
               "EditorCaption": ""
