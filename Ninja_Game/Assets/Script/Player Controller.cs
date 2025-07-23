@@ -4,10 +4,9 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Character
 {
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private Animator anim;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private float speed=5f;
     [SerializeField] private float jumpForce=350;
@@ -16,7 +15,6 @@ public class PlayerController : MonoBehaviour
     private bool isAttack = false;
     private bool isDeath = false;
     private float horizontal;
-    private string currentAnimName;
     private Vector3 savePoint;
 
     public Rigidbody2D RB;
@@ -28,7 +26,7 @@ public class PlayerController : MonoBehaviour
     {
         RB=rb;
         SavePoint();
-        OnInit();
+       
     }
 
     // Update is called once per frame
@@ -108,6 +106,14 @@ public class PlayerController : MonoBehaviour
         }
      
     }
+    public override void OnDespawn()
+    {
+        base.OnDespawn();
+    }
+    protected override void OnDeath()
+    {
+        base.OnDeath();
+    }
     //Hàm ném
     private void Throw()
     {
@@ -158,17 +164,7 @@ public class PlayerController : MonoBehaviour
     public void CallChangeAnim(string animName)//Gọi gián tiếp changeAnim để dùng cho collision
     {
         ChangeAnmim(animName);
-    }
-       
-    private void ChangeAnmim(string animName)
-    {
-        if(currentAnimName != animName)
-        {
-            anim.ResetTrigger(animName);
-            currentAnimName = animName;
-            anim.SetTrigger(currentAnimName);
-        }
-    }
+    }     
 
     internal void SavePoint()
     {
