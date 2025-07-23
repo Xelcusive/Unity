@@ -8,12 +8,18 @@ public class Kunai : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb.velocity = transform.right * 5f;
+        OnInit();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnInit()
     {
-        
+        rb.velocity = transform.right * 5f;
+        Invoke(nameof(OnDespawn), 4f);
     }
+
+    public void OnDespawn()
+    {
+        Destroy(gameObject);
+    }
+    
 }

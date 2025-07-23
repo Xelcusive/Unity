@@ -10,6 +10,9 @@ public class PlayerController : Character
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private float speed=5f;
     [SerializeField] private float jumpForce=350;
+    [SerializeField] private Kunai kunaiPrefab;
+    [SerializeField] private Transform throwpoint;
+    [SerializeField] private GameObject attackArea;
     private bool isGrounded=true;
     private bool isJumnping=false;
     private bool isAttack = false;
@@ -24,8 +27,6 @@ public class PlayerController : Character
     // Start is called before the first frame update
     void Start()
     {
-        RB=rb;
-        SavePoint();
        
     }
 
@@ -52,6 +53,10 @@ public class PlayerController : Character
         isAttack = false;
         transform.position = savePoint;
         ChangeAnmim("Idle");
+        DeActiveAttack();
+
+        RB = rb;
+        SavePoint();
     }
     //Hàm check nhân vật có ở mặt đất hay là không
     private bool CheckGrounded()
@@ -104,11 +109,14 @@ public class PlayerController : Character
             isAttack= true;
             Invoke(nameof(ResetAttack), 0.5f);
         }
+        ActiveAttack();
+        Invoke(nameof(DeActiveAttack), 0.5f);
      
     }
     public override void OnDespawn()
     {
         base.OnDespawn();
+        OnInit();
     }
     protected override void OnDeath()
     {
@@ -122,6 +130,8 @@ public class PlayerController : Character
             ChangeAnmim("throw");
             isAttack=true;
             Invoke(nameof(ResetAttack), 0.5f);
+
+            Instantiate(kunaiPrefab, throwpoint.position, throwpoint.rotation);
         }
       
     }
@@ -169,6 +179,15 @@ public class PlayerController : Character
     internal void SavePoint()
     {
         savePoint=transform.position;
+    }
+
+    private void ActiveAttack()
+    {
+        attackArea.SetActive(true);
+    }
+    private void DeActiveAttack()
+    {
+        attackArea.SetActive(false);
     }
 }
 

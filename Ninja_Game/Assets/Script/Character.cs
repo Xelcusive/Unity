@@ -31,7 +31,7 @@ public class Character : MonoBehaviour
             anim.SetTrigger(currentAnimName);
         }
     }
-    public void OnInit(float damage)
+    public void OnHit(float damage)
     {
         if(!IsDead)
         {
@@ -46,7 +46,8 @@ public class Character : MonoBehaviour
 
     protected virtual void OnDeath()
     {
-
+        ChangeAnmim("die");
+        Invoke(nameof(OnDespawn), 2f);
     }
    
 }
