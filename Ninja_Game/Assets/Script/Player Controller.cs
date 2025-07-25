@@ -33,6 +33,7 @@ public class PlayerController : Character
     // Update is called once per frame
     void Update()
     {
+        
         isGrounded = CheckGrounded();
         Falling();
         if (isGrounded)

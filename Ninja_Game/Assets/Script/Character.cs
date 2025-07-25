@@ -5,6 +5,7 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
     [SerializeField] private Animator anim;
+    //[SerializeField] private GameManager healthBar;
     private float hp;
     private string currentAnimName;
     public bool IsDead => hp <= 0;
@@ -16,6 +17,7 @@ public class Character : MonoBehaviour
     public virtual void OnInit()
     {
         hp = 100;
+        //healthBar.OnInit(100);
     }
 
     public virtual void OnDespawn()
