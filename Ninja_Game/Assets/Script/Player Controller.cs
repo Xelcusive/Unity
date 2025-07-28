@@ -82,7 +82,7 @@ public class PlayerController : Character
     {
 
         //Di chuyển theo trục x
-        horizontal = Input.GetAxisRaw("Horizontal");
+        //horizontal = Input.GetAxisRaw("Horizontal");
         if(Mathf.Abs(horizontal) > 0.1f)
         {
             ChangeAnmim("run");
@@ -97,7 +97,7 @@ public class PlayerController : Character
     }
 
     //Hàm tấn công
-    private void Attack()
+    public void Attack()
     {
         if (isAttack)
         {
@@ -124,7 +124,7 @@ public class PlayerController : Character
         base.OnDeath();
     }
     //Hàm ném
-    private void Throw()
+    public void Throw()
     {
         if (Input.GetKeyDown(KeyCode.R) && isGrounded)
         {
@@ -137,7 +137,7 @@ public class PlayerController : Character
       
     }
     //Hàm nhảy
-    private void Jump()
+    public void Jump()
     {
         if (isJumnping)
         {
@@ -189,6 +189,10 @@ public class PlayerController : Character
     private void DeActiveAttack()
     {
         attackArea.SetActive(false);
+    }
+    public void SetMove(float horizontal)
+    {
+        this.horizontal = horizontal;
     }
 }
 
