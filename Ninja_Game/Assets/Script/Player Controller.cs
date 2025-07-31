@@ -27,7 +27,7 @@ public class PlayerController : Character
     // Start is called before the first frame update
     void Start()
     {
-       
+       OnInit();
     }
 
     // Update is called once per frame
@@ -47,8 +47,9 @@ public class PlayerController : Character
         }
         Move();
     }
-    public void OnInit()// hàm reset các thông số, đưa về trạng thái đầu tiên
+    public override void OnInit()// hàm reset các thông số, đưa về trạng thái đầu tiên
     {
+        base.OnInit();
         isDeath = false;
         isDeath = false;
         isAttack = false;
