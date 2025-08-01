@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - EWall
   - Kunai
+  - EnemyAttack
   layers:
   - Default
   - TransparentFX

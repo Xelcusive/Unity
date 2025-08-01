@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|c:\\users\\night\\onedrive\\desktop\\git-fork\\unity\\ninja_game\\assets\\script\\player controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|c:\\users\\night\\onedrive\\desktop\\git-fork\\unity\\ninja_game\\assets\\script\\shadowclone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\shadowclone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\assets\\script\\statemachine\\attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\statemachine\\attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\assets\\script\\player controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\assets\\script\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\assets\\script\\ennemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ennemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\assets\\script\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FE488A9-4AE4-7E31-70DD-AA14D5C46E42}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,58 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HealthBar.cs",
-              "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\HealthBar.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\HealthBar.cs",
-              "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\HealthBar.cs",
-              "RelativeToolTip": "Assets\\Script\\HealthBar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ShadowClone.cs",
+              "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\ShadowClone.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ShadowClone.cs",
+              "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\ShadowClone.cs",
+              "RelativeToolTip": "Assets\\Script\\ShadowClone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T17:09:06.41Z"
+              "WhenOpened": "2025-08-01T08:30:24.568Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AttackState.cs",
-              "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\StateMachine\\AttackState.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\StateMachine\\AttackState.cs",
-              "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\StateMachine\\AttackState.cs",
-              "RelativeToolTip": "Assets\\Script\\StateMachine\\AttackState.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T08:31:15.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Ennemy.cs",
-              "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Ennemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Ennemy.cs",
-              "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Ennemy.cs",
-              "RelativeToolTip": "Assets\\Script\\Ennemy.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T14:47:02.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Player Controller.cs",
               "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Player Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player Controller.cs",
               "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Player Controller.cs",
               "RelativeToolTip": "Assets\\Script\\Player Controller.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAcwGcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAKoAAAAAAAAAAADwv8YAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T20:22:16.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T20:22:16.766Z"
             },
             {
               "$type": "Document",
@@ -95,22 +57,9 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Character.cs",
               "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\Character.cs",
               "RelativeToolTip": "Assets\\Script\\Character.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T13:33:53.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
-              "ToolTip": "C:\\Users\\night\\OneDrive\\Desktop\\GIt-Fork\\Unity\\Ninja_Game\\Assets\\Script\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Script\\GameManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T03:20:42.129Z"
+              "WhenOpened": "2025-07-22T13:33:53.628Z"
             }
           ]
         }

@@ -151,7 +151,7 @@ public class PlayerController : Character
             ChangeAnmim("jump");
             rb.AddForce(jumpForce * Vector2.up);
         }
-        
+
         //Change anim run
         if (Mathf.Abs(horizontal) > 0.1f)
         {
